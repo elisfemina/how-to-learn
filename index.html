@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
@@ -12,20 +13,19 @@
 
     <header class="header">
 
-      <div class="logo logo_place_header">
-        <img src="./images/logo_place_header.svg" alt="Логотип Яндекс.Практикум">
-      </div>
+      <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип Яндекс.Практикум">
+
 
       <h1 class="header__title">Научиться учиться</h1>
 
       <p class="header__subtile">
-        Какаие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
+        Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a href="" class="header__link">Узнать</a>
       </p>
 
-      <div class="header__main_illustation">
-        <img src="./images/header-image.png" alt="Картинка мальчик с собакой">
-      </div>
+
+      <img class="header__main_illustation" src="./images/header-image.png" alt="Картинка мальчик с собакой">
+
 
       <div class="header__square-pic"></div>
 
@@ -35,26 +35,30 @@
 
       <section class="description">
         <div class="two-columns">
-          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
-        </div>
-
-        <div class="two-columns__main-text">
-          <div class="two-columns__paragraf">
-            Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим
-            билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не даёт нам
-            реального знания. Зубрёжка быстро выветривается и не приности пользы.
+          <div class="two-columns__brief">Главные проблемы в обучении
           </div>
 
-          <div class="two-columns__paragraf">
-            <span class="two-columns__span-accent">Вывод:</span>
-            учиться тоже надо уметь, но почему-то этому мало где учат. Что с этим делать?
-          </div>
-          <div class="two-columns__paragraf">
-            Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и
-            захватывающим. Эти же техники применяются на примере обучения в Практикуме.
+          <div class="two-columns__main-text">
+            <div class="two-columns__paragraf">
+              Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и
+              учим
+              билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не даёт
+              нам
+              реального знания. Зубрёжка быстро выветривается и не приности пользы.
+            </div>
+
+            <div class="two-columns__paragraf">
+              <span class="two-columns__span-accent">Вывод:</span>
+              учиться тоже надо уметь, но почему-то этому мало где учат. Что с этим делать?
+            </div>
+            <div class="two-columns__paragraf">
+              Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и
+              захватывающим. Эти же техники применяются на примере обучения в Практикуме.
+            </div>
           </div>
         </div>
       </section>
+
       <!-- БЛОК ЦИФРЫ И ФАКТЫ -->
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
@@ -67,7 +71,8 @@
           </div>
           <div class="table__cell">
             <p class="table__heading">2,1 миллиарда</p>
-            <p class="table__text">Число нуждающихся в повышении квалификации Всемирный Банк, 2017</p>
+            <p class="table__text">Число нуждающихся в повышении квалификации</p>
+            <p class="table__text">Всемирный Банк, 2017</p>
           </div>
           <div class="table__cell">
             <p class="table__heading">1000 террабайт</p>
@@ -80,9 +85,10 @@
           <div class="table__cell">
             <p class="table__heading">420 миллионов</p>
             <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
+            <p class="table__text">Всемирный Банк, 2017</p>
           </div>
           <div class="table__cell">
-            <p class="table__heading">1-20 лет</p>
+            <p class="table__heading">17-20 лет</p>
             <p class="table__text">Пик обучаемости</p>
           </div>
           <div class="table__cell">
@@ -99,7 +105,7 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть</p>
-        <a href="" class="feynman__link">Подробнее</a>
+        <a href="" class="feynman__link">Подробнее →</a>
         <img class="feynman__img" src="./images/feynman.png" alt="Фото Фейнмана">
       </section>
 
@@ -171,17 +177,16 @@
       </section>
     </main>
 
-    <!-- FOOTER -->
+    <!-- Footer -->
     <footer class="footer">
 
       <div class="footer__columns">
 
         <div class="footer__column footer__column_content_copyright">
 
-          <div class="logo logo_place_footer">
-            <img src="./images/logo_place_footer.svg" alt="Логотип Яндекс.Практикум">
-          </div>
-          <div class="footer__author">© 2020 Илья Науменко</div>
+          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип Яндекс.Практикум">
+
+          <div class="footer__author">&copy 2020 Илья Науменко</div>
         </div>
 
         <div class="footer__column footer__column_content_info">
@@ -199,13 +204,14 @@
           <div class="footer__column-heading">
             Соцсети
           </div>
-          <div class="footer_social-icon">
-            <a href="">Facebook</a>
-            <a href="">ВКонтакте</a>
-            <a href="">Instagram</a>
+          <div class="footer__column_links">
+            <p><a href=""> <img class="footer_social-icon" src="/images/facebook_color_white.svg" alt="">Facebook</a>
+            </p>
+            <p><a href=""> <img class="footer_social-icon" src="/images/vk_color_white.svg" alt="">ВКонтакте</a></p>
+            <p><a href=""> <img class="footer_social-icon" src="/images/instagram_color_white.svg" alt="">Instagram</a>
+            </p>
           </div>
         </div>
-
       </div>
     </footer>
   </div>
