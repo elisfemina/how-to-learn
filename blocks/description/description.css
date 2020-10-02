@@ -1,0 +1,5 @@
+/* Блок Главные проблемы в обучении */
+.description {
+  display: flex;
+  justify-content: center;
+}
