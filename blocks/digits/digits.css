@@ -1,5 +1,8 @@
 /* Блок Цифры и факты */
 
 .digits {
-  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
 }

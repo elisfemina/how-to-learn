@@ -1,7 +1,7 @@
-.section-subtitle {
-  width: 60%;
-  text-align: center;
+.khan__quote {
+  min-width: 790px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin-bottom: 36px;
 }
