@@ -5,9 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
-  <link rel=" stylesheet" href="./styles/style.css">
 </head>
 
 <body>
@@ -26,7 +24,7 @@
         <a href="" class="header__link">Узнать &rarr;</a>
       </p>
 
-      <img class="header__main-illustation" src="./images/header-image.png" alt="Картинка мальчик с собакой">
+      <img class="header__main-illustation" src="./images/header-image.png" alt="Фрагмент картины 'Опять двойка'">
 
       <div class="header__square-pic rotation"></div>
 
@@ -72,7 +70,8 @@
 
         <ul class="cards">
           <li class="cards__item">
-            <img class="cards__image" src="./images/cards-attention.png" alt="Держит книгу в руках">
+            <img class="cards__image" src="./images/cards-attention.png"
+              alt="Две руки держат книгу с названием на английском языке">
             <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокуссированное и рассеянное
               мышление.</p>
@@ -92,7 +91,8 @@
           </li>
 
           <li class="cards__item">
-            <img class="cards__image" src="./images/cards-question.png" alt="Человек стоит в большом помещении">
+            <img class="cards__image" src="./images/cards-question.png"
+              alt="Человек стоит в большом помещении с окнами">
             <h3 class="cards__title">Вопросы</h3>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно
               волнует.</p>
@@ -115,11 +115,11 @@
         <p class="section-subtitle">Для тех кто любит прокрастинировать</p>
 
         <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
 
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY"
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
         </div>
@@ -156,7 +156,7 @@
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть</p>
         <a href="" class="feynman__link">Подробнее &rarr;</a>
-        <img class="feynman__img" src="./images/feynman.png" alt="Фото Фейнмана">
+        <div class="feynman__img"></div>
       </section>
 
       <!-- Сеция "Цифры и факты" -->
@@ -301,12 +301,17 @@
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
 
-        <div class="resources__logo-zone">
-          <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="">
-          <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="">
-          <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="">
-          <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="">
-        </div>
+        <ul class="resources__logo-zone">
+          <li><a class="resources__link" href=""><img class="resources__logo" src="./images/logo/resources-arzamas.svg"
+                alt="Логотип 'Arzamas'"></a></li>
+          <li><a class="resources__link" href=""><img class="resources__logo" src="./images/logo/resources-n1.svg"
+                alt="Логотип 'N+1'"></a></li>
+          <li><a class="resources__link" href=""><img class="resources__logo" src="./images/logo/resources-strelka.svg"
+                alt="Логотип 'Strelka'"></a></li>
+          <li><a class="resources__link" href=""><img class="resources__logo" src="./images/logo/resources-polka.svg"
+                alt="Логотип 'Полка'"></a>
+          </li>
+        </ul>
 
       </section>
 
